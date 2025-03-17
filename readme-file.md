@@ -8,11 +8,12 @@ This project implements a server that follows the Model Context Protocol, allowi
 
 ## Features
 
-- **Text Generation**: Generate creative content, explanations, code, and more using Gemini models
-- **Text Analysis**: Analyze sentiment, create summaries, extract keywords from text
-- **Chat Functionality**: Maintain conversational context between the AI assistant and Gemini
-- **Model Information**: List available Gemini models
-- **Parameter Control**: Fine-tune outputs with temperature and token limits
+- **Client-Server Communication**: Implements MCP protocol for secure message exchange between client and server.  
+- **Message Processing**: Handles and processes client requests, sending appropriate responses.  
+- **Error Handling & Logging**: Logs server activities and ensures smooth error recovery.  
+- **Environment Variables Support**: Uses `.env` file for storing sensitive information securely.  
+- **API Testing & Debugging**: Supports manual and automated testing using Postman and test scripts.  
+
 
 ## Installation
 
